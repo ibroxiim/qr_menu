@@ -1,0 +1,25 @@
+:root {
+  --primary: #fe724c;
+  --textColor: #000000;
+  --secondary: #d9d9d9;
+  --white: #fff;
+  --header: 22px;
+  --second: 20px;
+  --three: 18px;
+  --low: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--primary);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
